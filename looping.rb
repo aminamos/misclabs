@@ -1,6 +1,8 @@
 def looping
     loop do
-        put "Never pass a school bus if it has flashing red lights"
+        puts "Never pass a school bus if it has flashing red lights"
+        break # ends infinite loop
     end
-    looping
 end
+
+looping
